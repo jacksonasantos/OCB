@@ -1,15 +1,13 @@
 # -*- coding: utf-8 -*-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Created on Tue Dec  4  2018 - 00:43:55
+Created on Tue Apr 11  2020
 
 @author: Jackson Alessandro dos Santos
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 import serial
 from datetime import datetime
 import time
-import urllib
-import pdb
+#import pdb
 
 port=serial.Serial(port='/dev/ttyAMA0',baudrate=9600, timeout=1.0)
 eof = "\xff\xff\xff"
