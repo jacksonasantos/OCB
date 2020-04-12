@@ -37,3 +37,5 @@ while True:
 	#fullTime = (hour+":"+min+":"+sec+" "+AmPm)
 	fullTime1 = 'page0.Time.txt="'+fullTime+'"'+eof
 	
+	port.write(fullDate1)
+
