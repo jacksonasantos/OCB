@@ -1,2 +1,2 @@
-# ocb
-Onboard Cumputer Beetle
+# OCB
+Onboard Computer Beetle - Raspberry PI
